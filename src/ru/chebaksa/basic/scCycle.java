@@ -2,6 +2,8 @@ package ru.chebaksa.basic;
 
 import java.util.Scanner;
 
+
+
 public class scCycle {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

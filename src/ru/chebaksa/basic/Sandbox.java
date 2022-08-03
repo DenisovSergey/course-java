@@ -4,8 +4,12 @@ import java.util.Scanner;
 
 public class Sandbox {
     public static void main(String[] args) {
-        System.out.println("  ");
-        System.out.println("пора");
-        System.out.println("vb");
+        Scanner scanner = new Scanner(System.in);
+                int x = scanner.nextInt();
+        if (x > 5){
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
     }
 }
